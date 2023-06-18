@@ -30,12 +30,12 @@ function Form() {
             <fieldset>
                 <div className="field">
                     <label htmlFor="name">Full Name</label>
-                    <input type="text" placeholder="John Doe" name="name" {...register("name")} />
+                    <input type="text" placeholder="Jay Doe" name="name" {...register("name")} />
                     <span className="error-message">{errors.name?.message}</span>
                 </div>
                 <div className="field">
                     <label htmlFor="email">Email</label>
-                    <input type="text" placeholder="text@email.com" name="email" {...register("email")}/>
+                    <input type="text" placeholder="example@gmail.com" name="email" {...register("email")}/>
                     <span className="error-message">{errors.email?.message}</span>
                 </div>
                 <div className="field">
@@ -49,16 +49,16 @@ function Form() {
                     <label htmlFor="occasion">Occasion (optional)</label>
                     <div className="options">
                         <select name="occasion" {...register("occasion")}>
-                            <option value="select">Select occasion</option>
+                            <option value="select">Select</option>
                             <option value="birthday">Birthday</option>
                             <option value="engagement">Engagement</option>
-                            <option value="anniversary">Anniversary</option>
+                            <option value="anniversary">Graduation</option>
                         </select>
                     </div>
                 </div>
                 <div className="field guest">
                     <label htmlFor="guests">Guests</label>
-                    <input type="number" placeholder="2" name="guests" {...register("guests")}/> 
+                    <input type="number" placeholder="1" name="guests" {...register("guests")}/> 
                     <span className="error-message">{errors.guests?.message}</span>
                 </div>
                 {/*</div>*/}

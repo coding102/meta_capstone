@@ -10,23 +10,23 @@ const SpecialsCard = () => {
     const specialMenus = [
         {   
             image: Dessert1,
-            title: "Greek Salad",
-            price: "$12.99",
-            description: "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+            title: "Roman Salad",
+            price: "$11.99",
+            description: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas.",
             order: "Order a delivery"
         },
         {
             image: Dessert2,
             title: "Bruschetta",
-            price: "$5.99",
-            description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil; made perfect for an evening dinner.",
+            price: "$7.99",
+            description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint",
             order: "Order a delivery"
         },
         {
             image: Dessert3,
             title: "Lemon Dessert",
-            price: "$5.00",
-            description: "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
+            price: "$4.00",
+            description: "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
             order: "Order a delivery"
         }
     ]

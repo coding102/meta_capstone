@@ -9,8 +9,8 @@ const HeroSection = () => {
         <div className="hero-section-container">
             <div className="section-left">
                 <h1>Little Lemon</h1>
-                <h2>Chicago</h2>
-                <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+                <h2>New York</h2>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati. </p>
                 <NavLink to="/reservations"><button className="btn">Reserve a Table</button></NavLink>
             </div>
             <div className="section-right">

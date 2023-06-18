@@ -71,8 +71,8 @@ function ReservationsContent() {
     <div className="res-content-wrapper">
         <div className="res-content-container">
             <div className="text">
-                <h2>Experience the perfect balance of tradition and luxury.</h2>
-                <p>At Little Lemon, we take great pride in providing our customers with the greatest luxurious experience with a touch of <em>tradition</em>.</p>
+                <h2>Itaque earum rerum hic tenetur a sapiente delectus</h2>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <em>Lorem</em>.</p>
                 <p>Book a table with us to share in this experience.</p>
             </div>
             <div className="form">
